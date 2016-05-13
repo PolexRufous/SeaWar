@@ -1,10 +1,11 @@
 
 public abstract class Player {
 
-	private Field ownField;
-	private Field enemyField;
+	protected Field ownField;
+	protected Field enemyField;
 	
-	public abstract void makeMove(int cell);
+	public abstract int makeMove();
+	public abstract void getMove(int cell);
 	
 	public Field getOwnField()
 	{
@@ -16,4 +17,6 @@ public abstract class Player {
 		return enemyField;
 	}
 			
+	public abstract boolean hasAliveShips();
+	
 }
