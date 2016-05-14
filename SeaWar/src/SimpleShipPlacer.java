@@ -199,7 +199,7 @@ public class SimpleShipPlacer extends ShipPlacer {
 		
 		cells[0] = getUpCell(cell);
 		cells[1] = getLeftCell(cells[0]);
-		cells[2] = getLeftCell(cells[0]);
+		cells[2] = getRightCell(cells[0]);
 		cells[3] = getLeftCell(cell);
 		cells[4] = getRightCell(cell);
 		cells[5] = getDownCell(cell);

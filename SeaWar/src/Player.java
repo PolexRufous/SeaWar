@@ -5,7 +5,16 @@ public abstract class Player {
 	protected Field enemyField;
 	
 	public abstract int makeMove();
-	public abstract void getMove(int cell);
+	public abstract int[] getMoveResult(int move);
+	public abstract void setMoveResult(int[] moveResult);
+	
+	public Player(int fieldSize){
+		this.ownField = new Field(fieldSize);
+		this.enemyField = new Field(fieldSize);
+		ownField.setAllCellsVisible();
+		ownField.placeShip(4, 3, 3, 2, 2, 2, 1, 1, 1, 1);
+	}
+	
 	
 	public Field getOwnField()
 	{

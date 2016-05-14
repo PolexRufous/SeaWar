@@ -6,10 +6,31 @@ public class PvEConsoleGame extends Game {
 	@Override
 	public void startNewGame() {
 		
+		((PersonConsolePlayer) player1).drawFields();
+		
 		do
 		{
-			player2.getMove(player1.makeMove());
-			player1.getMove(player2.makeMove());
+			int moveResultType = 0;
+			int move;
+			int[] moveResult;
+			
+			do
+			{
+				move = player1.makeMove();
+				moveResult = player2.getMoveResult(move);
+				moveResultType = moveResult[0];
+				player1.setMoveResult(moveResult);
+			} while(moveResultType != 0);
+			
+			do
+			{
+				move = player2.makeMove();
+				moveResult = player1.getMoveResult(move);
+				moveResultType = moveResult[0];
+				player2.setMoveResult(moveResult);
+			} while (moveResultType != 0);
+			
+			
 		} while (!this.isEnded());
 		
 		System.out.println("Game is over!");
