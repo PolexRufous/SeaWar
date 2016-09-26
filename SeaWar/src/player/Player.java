@@ -1,3 +1,5 @@
+package player;
+import model.Field;
 
 public abstract class Player {
 

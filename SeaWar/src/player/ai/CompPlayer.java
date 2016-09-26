@@ -1,4 +1,7 @@
+package player.ai;
 import java.util.Arrays;
+
+import player.Player;
 
 public class CompPlayer extends Player {
 

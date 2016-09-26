@@ -1,3 +1,6 @@
+package controller;
+
+import player.Player;
 
 public abstract class Game {
 

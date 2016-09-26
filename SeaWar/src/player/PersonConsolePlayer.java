@@ -1,6 +1,8 @@
+package player;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import model.Cell;
 
 public class PersonConsolePlayer extends Player {
 
@@ -113,7 +115,7 @@ public class PersonConsolePlayer extends Player {
 	{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Make your move!");
-		System.out.println("Enter two digits with spase. First – column, second – row.");
+		System.out.println("Enter two digits with spase. First ï¿½ column, second ï¿½ row.");
 		
 		int index = -1;
 		String input;

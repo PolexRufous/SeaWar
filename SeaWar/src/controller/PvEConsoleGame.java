@@ -1,3 +1,8 @@
+package controller;
+
+import player.PersonConsolePlayer;
+import player.Player;
+import player.ai.CompPlayer;
 
 public class PvEConsoleGame extends Game {
 

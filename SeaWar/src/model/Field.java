@@ -1,10 +1,11 @@
+package model;
 import java.util.Arrays;
 
 public class Field {
 
 	private Cell[] cells;
-	int rowSize;
-	int aliveShips;
+	public int rowSize;
+	public int aliveShips;
 	
 	public Field(int size){
 		this.cells = new Cell[size * size];
