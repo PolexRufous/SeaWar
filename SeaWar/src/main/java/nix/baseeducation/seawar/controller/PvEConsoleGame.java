@@ -1,8 +1,8 @@
-package controller;
+package nix.baseeducation.seawar.controller;
 
-import player.PersonConsolePlayer;
-import player.Player;
-import player.ai.CompPlayer;
+import nix.baseeducation.seawar.player.PersonConsolePlayer;
+import nix.baseeducation.seawar.player.Player;
+import nix.baseeducation.seawar.player.ai.CompPlayer;
 
 public class PvEConsoleGame extends Game {
 

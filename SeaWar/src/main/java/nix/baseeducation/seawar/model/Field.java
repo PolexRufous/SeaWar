@@ -1,4 +1,4 @@
-package model;
+package nix.baseeducation.seawar.model;
 import java.util.Arrays;
 
 public class Field {

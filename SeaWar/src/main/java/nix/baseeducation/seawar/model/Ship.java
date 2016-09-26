@@ -1,4 +1,4 @@
-package model;
+package nix.baseeducation.seawar.model;
 
 public class Ship {
 	

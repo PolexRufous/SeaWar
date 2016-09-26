@@ -1,6 +1,6 @@
-package controller;
+package nix.baseeducation.seawar.controller;
 
-import player.Player;
+import nix.baseeducation.seawar.player.Player;
 
 public abstract class Game {
 

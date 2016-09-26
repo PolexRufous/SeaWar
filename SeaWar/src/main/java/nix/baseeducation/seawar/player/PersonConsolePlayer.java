@@ -1,8 +1,10 @@
-package player;
+package nix.baseeducation.seawar.player;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import model.Cell;
+
+import nix.baseeducation.seawar.model.Cell;
+
 
 public class PersonConsolePlayer extends Player {
 

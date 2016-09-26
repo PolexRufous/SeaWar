@@ -1,5 +1,6 @@
-package player;
-import model.Field;
+package nix.baseeducation.seawar.player;
+
+import nix.baseeducation.seawar.model.Field;
 
 public abstract class Player {
 

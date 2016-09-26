@@ -1,7 +1,8 @@
-package player.ai;
+package nix.baseeducation.seawar.player.ai;
 import java.util.Arrays;
 
-import player.Player;
+import nix.baseeducation.seawar.player.Player;
+
 
 public class CompPlayer extends Player {
 
