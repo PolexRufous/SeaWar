@@ -2,11 +2,15 @@
 /CompPlayer.class
 /Field.class
 /Game.class
-/PersonPlayer.class
+/PersonConsolePlayer.class
 /Player.class
 /PvEConsoleGame.class
 /Runner.class
 /Ship.class
 /ShipPlacer.class
 /SimpleShipPlacer.class
-/PersonConsolePlayer.class
+/model/
+/controller/
+/view/
+/ai/
+/player/
